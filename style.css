@@ -49,12 +49,11 @@
     }
 
 
-
 #introduccion {
     color:midnightblue;
     display: flex;
     width: 100%;
-    height: 820px;
+    height: 815px;
     /*flex-direction: column;*/
     justify-content: space-between;
     /*align-items: center;*/
@@ -102,4 +101,65 @@
         
     }
 
-    
+#agendar-cita {
+    width: 1200px;
+    height: 300px;
+    margin: 0px 15vw 0px 10vw;
+        
+    /*
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;*/
+}
+
+    #agendar-cita img {
+        height: 40px;
+        vertical-align: middle;
+    }
+
+    #agendar-cita div.titulo {
+        color:midnightblue;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-size: 30px;
+        height: 40px;
+        margin: 0 0 30px 0;
+        vertical-align: middle;
+    }
+
+    #agendar-cita div.form-agendar {
+        font-family: 'Niramit', sans-serif;
+        font-size: 25px;
+        color:darkcyan;
+        display: flex;
+        justify-content: space-between;
+        margin: 0 35px 0 35px;
+        padding: 40px;
+        border: 0px solid lightblue;
+        border-radius: 20px;
+        box-shadow: 0 12px 16px 0 rgba(0,0,100,0.24), 0 17px 50px 0 rgba(0,0,250,0.19);
+        
+    }
+
+    #agendar-cita p {
+        color:midnightblue;
+        font-size: 25px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+    }
+
+    #agendar-cita button {
+        color:white;
+        font-size: 25px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        margin: 20px 40px 0 35px;
+        border-top: 15px solid royalblue;
+        border-right: 35px solid royalblue;
+        border-bottom: 15px solid royalblue;
+        border-left: 35px solid royalblue;
+        border-radius: 10px;
+        background-color: royalblue;
+        box-shadow: 0 8px 10px 0 rgba(0,0,100,0.24), 0 17px 50px 0 rgba(0,0,250,0.19);
+
+    }
+
+
