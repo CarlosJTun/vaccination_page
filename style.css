@@ -73,7 +73,7 @@
         font-size: 25px;
         color:darkcyan;
         padding: 0px;
-        margin: 0px 200px 0px 100px ;
+        margin: 30px 200px 0px 100px ;
     }
     
     #introduccion img.enfermera-slogan {
@@ -165,17 +165,40 @@
     width: 1300px;
     height: 200px;
     margin: 10px 15vw 0px 12vw;
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#marca-vacunas img {
-    filter: grayscale(90%) drop-shadow(2px 3px 20px rgb(42, 116, 255));
-    opacity(50%);
-    
+    #marca-vacunas img {
+        filter: grayscale(90%) drop-shadow(2px 3px 20px rgb(42, 116, 255));
+        opacity(50%);
+    }
 
+#vacunarse {
+    color:midnightblue;
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*flex-direction: column;*/
+    justify-content: space-between;
+    /*align-items: center;*/
     
-    
+    background-color: white;
 }
+
+    #vacunarse p.pregunta {
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        font-size: 60px;
+        width: 50%;
+        margin: 100px 0 auto 100px ;
+    }
+
+    #vacunarse p.respuesta {
+        font-family: 'Niramit', sans-serif;
+        font-size: 25px;
+        color:darkcyan;
+        width: 50%;
+        padding: 0px;
+        margin: 50px 0 100px 100px ;
+    }
