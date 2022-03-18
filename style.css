@@ -35,7 +35,7 @@
         color:darkcyan;
         font-family: 'Niramit', sans-serif;
         font-size: 25px;
-        margin:0;
+        margin: 0;
         padding:0;
     }
 
@@ -48,6 +48,19 @@
         
     }
 
+    #main-header button {
+        color:white;
+        font-size: 25px;
+        font-family: 'Atkinson Hyperlegible', sans-serif;
+        margin: -5px 40px 0 35px;
+        border-top: 15px solid royalblue;
+        border-right: 35px solid royalblue;
+        border-bottom: 15px solid royalblue;
+        border-left: 35px solid royalblue;
+        border-radius: 5px;
+        background-color: royalblue;
+        box-shadow: 0 8px 10px 0 rgba(0,0,100,0.24), 0 17px 50px 0 rgba(0,0,250,0.19);
+    }
 
 #introduccion {
     color:midnightblue;
