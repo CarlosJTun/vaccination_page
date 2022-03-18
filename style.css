@@ -92,17 +92,11 @@
         /*align-self: stretch;*/
         margin: 0px 200px 50px 0px ;
         padding: 30px;
-        display: inline-block;
+        vertical-align: middle;
         
     }
-
-    /*#introduccion div.ventajas img {
-        margin: 0 10px 0 50px;
-        
-    }*/
-
-    #introduccion div.ventajas p {
-        height: 50px;
+    
+    #introduccion div.ventajas img {
         margin: 0 10px 0 75px;
         
         
