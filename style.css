@@ -303,7 +303,8 @@
 
         #recomendaciones div.tarjeta {
             display: flex;
-            flex-direction: column;
+            flex-direction: row;
+            flex-wrap: wrap;
             font-family: 'Niramit', sans-serif;
             font-size: 23px;
             color: midnightblue;
@@ -315,6 +316,13 @@
             margin-left: 30px;
             background-color:white;
             box-shadow: 0 12px 16px 0 rgba(0, 62, 180, 0.10), 0 17px 50px 0 rgba(0,62, 180,0.10);
+        }
+
+        #recomendaciones img {
+            border-radius: 8px;
+            margin: 5px 15px 10px 15px;
+            box-shadow: 0 12px 16px 0 rgba(0, 62, 180, 0.10), 0 17px 50px 0 rgba(0,62, 180,0.10);
+            vertical-align:sub;
         }
 
         #recomendaciones p.recomendacion {
